@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  body{
+  font-family: "Roboto";
+  }
+  
+  .side-bar-container{
+  background-image: linear-gradient(green,yellow);
+  height: 90vh;
   display: flex;
   flex-direction: column;
+  justify-content: start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  }
+  .sidebar-mini-container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 20px;
+  width: 70%;
+  
+  
+  }
+  .sidebar-btn{
+  height: 55px;
+  width: 55px;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 100%;
+  border: 2px solid white;
+  background-color: transparent;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
   }
-  to {
-    transform: rotate(360deg);
+  .sidebar-ul{
+  list-style-type: none;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  justify-content: center;
   }
-}
+  .sidebar-li{
+  font-weight: bold;
+  color: white;
+  }
+  
+  
+  
+  
+  
+  
+  .content-container{
+  background-image: linear-gradient(white,rgb(227, 227, 212));
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  }
+  .form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  padding: 20px;
+  }
+  .form-input-container{
+  display: flex;
+  flex-direction: column;
+  }
+  .input-type-cl{
+  width: 75%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  }
+  .btn-container{
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+  margin-top: 25px;
+  }
+  .active-btn{
+  background-color: rgb(47, 255, 186);
+  }
+  .grid-container {
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  }
+  
+  .grid-item {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  background-color: aquamarine;
+  }
+  .grid-item-active{
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px 1px;
+  }
+  .ul-plan{
+  list-style-type: none;
+  padding: 0;
+  }
+  .monthly-container{
+  background-color: rgb(231, 222, 222);
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .container-3{
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .container-3-active{
+  border: 2px solid black;
+  }
+  .container-3-input{
+  height: 20px;
+  width: 20px;
+  }
+  .container-3-ul{
+  list-style-type: none;
+  padding-left: 10px;
+  }
+  .text-bold-3{
+  font-weight: bold;
+  }
